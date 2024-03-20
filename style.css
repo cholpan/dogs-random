@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.dogs-content{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#dogs{
+    background: rgb(7, 255, 0);
+    background: linear-gradient(
+        19deg, rgb(7, 255, 0,1)5%,
+        rgba(0,11,255,1)100%
+    );
+    min-height: 100vh;
+}
+
+#breeds{
+    width: 300px;
+    padding: 10px;
+border-radius: 10px;
+}
+.header button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    background: #00ff8f;
+    font-weight: 600;
+    border: 3px solid white;
+    cursor: pointer;
+}
